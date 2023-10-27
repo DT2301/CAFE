@@ -1,0 +1,220 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+.container {
+    background-image: url("54czLf.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.header{
+    display: flex; /* Hiển thị các mục menu ngang */
+    background-color: rgba(0, 0, 0, 0.614);
+    width: 1300px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px; ;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    font-weight: bold;
+}
+.menu {
+    list-style: none;
+    display: flex; /* Hiển thị các mục menu ngang */
+
+}
+
+.menu li {
+    margin: 0; /* Loại bỏ margin mặc định của danh sách */
+    padding: 10px;
+    margin: 10px;
+}
+
+
+li:first-child{
+    color: #DDA15E  ;
+    
+}
+
+li:last-child{
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.fa-long-arrow-up {
+    transform: rotate(30deg) scale(0.9)     ;
+}   
+.logocf{
+    width: 50px;
+    height: 50px;
+    filter: invert(1);
+    margin-left: 10px ;
+}
+.logo{
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: auto;
+
+}
+a {
+    text-decoration: none;
+}
+.home{
+    position: relative;
+    top: 150px;
+}
+
+.background-home{
+    background-color: rgba(0, 0, 0, 0.793);
+    width: 250px;
+    height: 350px;
+    z-index: -1; /* Đặt z-index để đảm bảo nó nằm sau phần content */
+    opacity: 0.7; /* Điều chỉnh độ trong suốt nếu cần thiết */
+    border-radius: 20px;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    top: 900px;
+    z-index: 1;
+}
+
+.content {
+    top: -325px;
+    position: relative;
+    z-index: 1;
+    text-align: center;    
+}
+
+.content p {
+    color: #DDA15E;
+    margin: 8px;
+}
+
+.content h1{
+    font-size: 68px;
+    margin: 8px;
+}
+
+.content h6{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 16px;
+    margin: 8px;
+}
+
+.content a  {
+    border: 1.6px solid rgba(255, 255, 255, 0);
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 12px 28px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.ourstory:hover{ 
+   
+    color: #DDA15E;
+    background-color:aliceblue;
+}
+
+.checkmenu{
+    background-color: #BC6C25;
+}
+
+.checkmenu:hover{
+    background-color: #DDA15E;
+}
+
+.about{
+    position: relative;
+    top: 105px;
+    width: 100%;
+    height: 100%;
+    background-color: #6d471d;
+    display: flex;
+    z-index: -1;
+}
+
+.infor-about{
+    display: flex;
+    margin:  auto;
+}
+
+ .background-about{
+    margin-top: 250px;
+    /* margin-left: 110px; */
+    margin-right: 100px;
+    background-image: linear-gradient( to bottom , rgba(0, 0, 0, 0.35), rgba(188, 107, 37, 0.726)), url(fffb3fbd-4e77-42ad-8cd4-a6be7d0aacf3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 640px;
+    height: 640px;
+    border-radius: 10px;
+} 
+
+.background-about h2{
+    position: absolute;
+    top: 85%;
+    left: 18%;;
+    
+}
+
+.content-about{
+    margin-top: 350px;
+    width: 560px;
+}
+.about p {
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.content-about h2 {
+    font-size: 46px;
+    font-weight: Bold;
+    margin: 5px 0;
+
+}
+
+.content-about h6{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.a-1{
+    color: #BC6C25;
+   
+}
+
+.a-2{
+    border: 1.6px solid white;
+    border-radius: 20px;
+    padding: 12px 28px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.a-2:hover{
+    background-color: white;
+    color: #DDA15E;
+}
