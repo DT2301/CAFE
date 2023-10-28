@@ -1,0 +1,220 @@
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+.container {
+    background-image: url("54czLf.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.header{
+    display: flex; /* Hiển thị các mục menu ngang */
+    background-color: rgba(0, 0, 0, 0.614);
+    width: 13rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem; ;
+    position: relative;
+    top: 3rem;
+    margin: auto;
+    font-weight: bold;
+}
+.menu {
+    list-style: none;
+    display: flex; /* Hiển thị các mục menu ngang */
+
+}
+
+.menu li {
+    margin: 0; /* Loại bỏ margin mặc định của danh sách */
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+li:first-child{
+    color: #DDA15E  ;
+    
+}
+
+li:last-child{
+    border: 2px solid white;
+    border-radius: 4rem;
+    padding: 1rem;
+}
+
+.fa-long-arrow-up {
+    transform: rotate(30deg) scale(0.9)     ;
+}   
+.logocf{
+    width: 5rem;
+    height: 5rem;
+    filter: invert(1);
+    margin-left: 1rem ;
+}
+.logo{
+    font-size: 3rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: auto;
+
+}
+a {
+    text-decoration: none;
+}
+.home{
+    position: relative;
+    top: 15rem;
+}
+
+.background-home{
+    background-color: rgba(0, 0, 0, 0.793);
+    width: 25rem ;
+    height: 35rem;
+    z-index: -1; /* Đặt z-index để đảm bảo nó nằm sau phần content */
+    opacity: 0.7;/* Điều chỉnh độ trong suốt nếu cần thiết  */
+    border-radius: 20px;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    top: 90rem;
+    z-index: 1;
+}
+
+.content {
+    top: -32.5rem;
+    position: relative;
+    z-index: 1;
+    text-align: center;    
+}
+
+.content p {
+    color: #DDA15E;
+    margin: 0.8rem;
+}
+
+.content h1{
+    font-size: 6.8rem;
+    margin: 0.8rem;
+}
+
+.content h6{
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-bottom: 1.6rem;
+    margin: 0.8rem;
+}
+
+.content a  {
+    border: 1.6px solid rgba(255, 255, 255, 0);
+    margin-right: 2rem;
+    border-radius: 2rem;
+    padding: 12px 28px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.ourstory:hover{ 
+   
+    color: #DDA15E;
+    background-color:aliceblue;
+}
+
+.checkmenu{
+    background-color: #BC6C25;
+}
+
+.checkmenu:hover{
+    background-color: #DDA15E;
+}
+
+.about{
+    position: relative;
+    top: 10.5rem;
+    width: 100%;
+    height: 100%;
+    background-color: #6d471d;
+    display: flex;
+    z-index: -1;
+}
+
+.infor-about{
+    display: flex;
+    margin:  auto;
+}
+
+ .background-about{
+    margin-top: 25rem;
+    /* margin-left: 110px; */
+    margin-right: 10rem;
+    background-image: linear-gradient( to bottom , rgba(0, 0, 0, 0.35), rgba(188, 107, 37, 0.726)), url(fffb3fbd-4e77-42ad-8cd4-a6be7d0aacf3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 64rem;
+    height: 64rem;
+    border-radius: 10px;
+} 
+
+.background-about h2{
+    position: absolute;
+    top: 85%;
+    left: 18%;;
+    
+}
+
+.content-about{
+    margin-top: 35rem;
+    width: 56rem;
+}
+.about p {
+    font-size: 1.6rem;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.content-about h2 {
+    font-size: 4.6rem;
+    font-weight: Bold;
+    margin: 5px 0;
+
+}
+
+.content-about h6{
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.a-1{
+    color: #BC6C25;
+   
+}
+
+.a-2{
+    border: 1.6px solid white;
+    border-radius: 2rem;
+    padding: 12px 28px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.a-2:hover{
+    background-color: white;
+    color: #DDA15E;
+}
