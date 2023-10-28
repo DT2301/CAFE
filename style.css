@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     color: white;
-    font-size: 62.5%;
+    
 }
 
 html, body {
@@ -23,13 +23,13 @@ html, body {
 .header{
     display: flex; /* Hiển thị các mục menu ngang */
     background-color: rgba(0, 0, 0, 0.614);
-    width: 13rem;
-    height: 10rem;
+    width: 1300px;
+    height: 100px;
     align-items: center;
     justify-content: center;
-    border-radius: 2rem; ;
+    border-radius: 20px; ;
     position: relative;
-    top: 3rem;
+    top: 30px;
     margin: auto;
     font-weight: bold;
 }
@@ -41,8 +41,8 @@ html, body {
 
 .menu li {
     margin: 0; /* Loại bỏ margin mặc định của danh sách */
-    padding: 1rem;
-    margin: 1rem;
+    padding: 10px;
+    margin: 10px;
 }
 
 
@@ -53,23 +53,23 @@ li:first-child{
 
 li:last-child{
     border: 2px solid white;
-    border-radius: 4rem;
-    padding: 1rem;
+    border-radius: 40px;
+    padding: 10px;
 }
 
 .fa-long-arrow-up {
     transform: rotate(30deg) scale(0.9)     ;
 }   
 .logocf{
-    width: 5rem;
-    height: 5rem;
+    width: 50px;
+    height: 50px;
     filter: invert(1);
-    margin-left: 1rem ;
+    margin-left: 10px ;
 }
 .logo{
-    font-size: 3rem;
-    padding: 0.5rem;
-    margin-left: 0.5rem;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 5px;
     margin-right: auto;
 
 }
@@ -78,24 +78,24 @@ a {
 }
 .home{
     position: relative;
-    top: 15rem;
+    top: 150px;
 }
 
 .background-home{
     background-color: rgba(0, 0, 0, 0.793);
-    width: 25rem ;
-    height: 35rem;
+    width: 250px;
+    height: 350px;
     z-index: -1; /* Đặt z-index để đảm bảo nó nằm sau phần content */
-    opacity: 0.7;/* Điều chỉnh độ trong suốt nếu cần thiết  */
+    opacity: 0.7; /* Điều chỉnh độ trong suốt nếu cần thiết */
     border-radius: 20px;
     transform: rotate(45deg);
     margin: 0 auto;
-    top: 90rem;
+    top: 900px;
     z-index: 1;
 }
 
 .content {
-    top: -32.5rem;
+    top: -325px;
     position: relative;
     z-index: 1;
     text-align: center;    
@@ -103,25 +103,25 @@ a {
 
 .content p {
     color: #DDA15E;
-    margin: 0.8rem;
+    margin: 8px;
 }
 
 .content h1{
-    font-size: 6.8rem;
-    margin: 0.8rem;
+    font-size: 68px;
+    margin: 8px;
 }
 
 .content h6{
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: lighter;
-    padding-bottom: 1.6rem;
-    margin: 0.8rem;
+    padding-bottom: 16px;
+    margin: 8px;
 }
 
 .content a  {
     border: 1.6px solid rgba(255, 255, 255, 0);
-    margin-right: 2rem;
-    border-radius: 2rem;
+    margin-right: 20px;
+    border-radius: 20px;
     padding: 12px 28px;
     text-align: center;
     justify-content: center;
@@ -144,7 +144,7 @@ a {
 
 .about{
     position: relative;
-    top: 10.5rem;
+    top: 105px;
     width: 100%;
     height: 100%;
     background-color: #6d471d;
@@ -158,36 +158,36 @@ a {
 }
 
  .background-about{
-    margin-top: 25rem;
+    margin-top: 80px;
     /* margin-left: 110px; */
-    margin-right: 10rem;
+    margin-right: 100px;
     background-image: linear-gradient( to bottom , rgba(0, 0, 0, 0.35), rgba(188, 107, 37, 0.726)), url(fffb3fbd-4e77-42ad-8cd4-a6be7d0aacf3.jpg);
     background-size: cover;
     background-position: center;
-    width: 64rem;
-    height: 64rem;
+    width: 640px;
+    height: 640px;
     border-radius: 10px;
 } 
 
 .background-about h2{
     position: absolute;
-    top: 85%;
-    left: 18%;;
+    top: 82%;
+    left: 10%;;
     
 }
 
 .content-about{
-    margin-top: 35rem;
-    width: 56rem;
+    margin-top: 250px;
+    width: 560px;
 }
 .about p {
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: lighter;
     font-style: italic;
 }
 
 .content-about h2 {
-    font-size: 4.6rem;
+    font-size: 46px;
     font-weight: Bold;
     margin: 5px 0;
 
@@ -195,8 +195,8 @@ a {
 
 .content-about h6{
     font-weight: lighter;
-    font-size: 2rem;
-    margin-bottom: 5rem;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 
 .a-1{
@@ -206,12 +206,12 @@ a {
 
 .a-2{
     border: 1.6px solid white;
-    border-radius: 2rem;
+    border-radius: 20px;
     padding: 12px 28px;
     text-align: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 18px;
 }
 
 .a-2:hover{
